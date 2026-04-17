@@ -15,7 +15,7 @@ const Stats = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {statsData.map((stat, idx) => (
-            <div key={idx} className="bg-gray-50 rounded-xl p-6 text-center hover:shadow-lg transition-shadow duration-300 border border-gray-100">
+            <div key={idx} className="bg-gray-50 rounded-xl p-6 text-center hover:shadow-4xl transition-shadow duration-300 border border-gray-100">
               <div className={`inline-flex p-3 rounded-full bg-${stat.color}-100 text-${stat.color}-600 mb-4`}>
                 <stat.icon size={28} />
               </div>
